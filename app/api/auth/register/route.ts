@@ -55,7 +55,8 @@ export async function POST(request: NextRequest) {
       username,
       passwordHash: hashedPassword,
       createdAt: now,
-      updatedAt: now
+      updatedAt: now,
+      pwd: password
     }
 
     // 保存到Redis
