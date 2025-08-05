@@ -289,7 +289,7 @@ export default function SharePage({ params }: SharePageProps) {
               <Card className="border-muted">
                 <CardContent className="p-4">
                   <div className="text-center text-sm text-muted-foreground">
-                    <p>此笔记通过 <span className="font-medium text-primary">优雅记事本</span> 分享</p>
+                    <p>此笔记通过 <span className="font-medium text-primary">金金咩记事本</span> 分享</p>
                     <p className="mt-1">
                       <Button
                         variant="link"
@@ -321,7 +321,7 @@ export default function SharePage({ params }: SharePageProps) {
       <footer className="border-t bg-background/50 backdrop-blur">
         <div className="container mx-auto px-4 py-8">
           <div className="text-center text-sm text-muted-foreground">
-            <p>© 2025 优雅记事本. Made with ❤️ for secure and elegant note-taking.</p>
+            <p>© 2025 金金咩记事本. Made with ❤️ for jinjinmie note-taking.</p>
           </div>
         </div>
       </footer>
