@@ -80,7 +80,7 @@ export default function HomePage() {
               现代化记事本应用
             </div>
             <h1 className="text-4xl md:text-6xl font-bold text-gradient">
-              优雅记事本
+              金金咩记事本
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
               现代化、安全、美观的记事本应用，支持密码保护、分享功能和优雅设计
