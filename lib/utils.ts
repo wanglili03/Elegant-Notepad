@@ -86,7 +86,7 @@ export function formatRelativeTime(dateString: string): string {
 
 // File download utilities
 export function downloadMarkdown(title: string, content: string): void {
-  const markdown = `# ${title}\n\n${content}\n\n---\n*由优雅记事本创建*`
+  const markdown = `# ${title}\n\n${content}\n\n---\n*由金金咩记事本创建*`
   const blob = new Blob([markdown], { type: 'text/markdown;charset=utf-8' })
   const url = URL.createObjectURL(blob)
   
@@ -144,8 +144,8 @@ export function validateTitle(title: string): { isValid: boolean; error?: string
 }
 
 export function validateContent(content: string): { isValid: boolean; error?: string } {
-  if (content.length > 50 * 1024) {
-    return { isValid: false, error: '内容不能超过50KB' }
+  if (content.length > 500 * 1024) {
+    return { isValid: false, error: '内容不能超过500KB' }
   }
   return { isValid: true }
 }
