@@ -30,7 +30,7 @@ export function Header() {
           <div className="flex items-center space-x-4">
             <Link href="/" className="flex items-center space-x-2">
               <FileText className="h-6 w-6" />
-              <span className="text-xl font-bold text-gradient">优雅记事本</span>
+              <span className="text-xl font-bold text-gradient">金金咩记事本</span>
             </Link>
           </div>
 
